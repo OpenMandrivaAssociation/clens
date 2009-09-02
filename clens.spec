@@ -32,7 +32,7 @@ mv PTLensProfiles.pdf ../
 cd ..
 echo "Lens Profiles are aviable at %{_datadir}/%{name}" >> README
 perl -pi -e "s|\@\@PROFILE\@\@|%{_datadir}/%{name}/profile.txt|" src/main.c
-%configure
+%configure2_5x
 %make
 
 %install
