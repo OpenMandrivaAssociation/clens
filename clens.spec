@@ -12,7 +12,7 @@ Source1:	PTLensProfiles.tar.bz2
 Patch0:		clens-mdk-profile.patch.bz2
 License:        GPL
 Group:          Graphics
-Url:         	http://panotools.sourceforge.net/
+Url:         	https://panotools.sourceforge.net/
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:  pano12-devel
 
