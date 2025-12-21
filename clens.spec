@@ -14,6 +14,11 @@ License:        GPL
 Group:          Graphics
 Url:         	https://panotools.sourceforge.net/
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  pano12-devel
 
 %description
