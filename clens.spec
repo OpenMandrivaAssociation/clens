@@ -1,6 +1,6 @@
 %define name    clens
 %define version 0.2
-%define release %mkrel 7
+%define release 8
 
 Name:           %{name}
 Version:        %{version}
